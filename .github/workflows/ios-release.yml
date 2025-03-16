@@ -1,9 +1,10 @@
 name: Ios + Release
-on: 
+on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+
 
 permissions:
   contents: write
